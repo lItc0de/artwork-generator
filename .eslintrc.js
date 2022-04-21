@@ -31,5 +31,6 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error'],
     'import/extensions': [2, 'always', { tsx: 'never', ts: 'never' }],
     'import/prefer-default-export': 'off',
+    'no-plusplus': 'off',
   },
 };
