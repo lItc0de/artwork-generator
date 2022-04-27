@@ -34,6 +34,12 @@ class Colors {
     this.s.pop();
   }
 
+  drawRandomGradient() {
+    const color1 = this.getRandomColor();
+    const color2 = this.getRandomColor();
+    this.setGradient(0, 0, this.s.width, this.s.height, color1, color2, 1);
+  }
+
   getRandomColor(saturation: number = 100, brightness: number = 100) {
     const color = this.s.int(this.s.random(0, 360));
 

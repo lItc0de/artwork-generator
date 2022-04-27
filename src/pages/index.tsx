@@ -19,7 +19,7 @@ const IndexPage = () => {
   return (
     <main className={styles.index}>
       <title>Artwork generator</title>
-      <h1 className={styles.title}>arwork generator 1.0</h1>
+      <h1 className={styles.title}>artwork generator 1.0</h1>
       <ArtworkWrapper className={styles.artworkWrapper} />
       <button className={styles.button} onClick={download} type="button">give me the thing</button>
     </main>
